@@ -1,5 +1,22 @@
 //Matt Raetano
-//Program will print out the verses of the twelve days of christmas using loops
+//Write a java application program that will print the verses of the song The Twelve Days of Christmas to the screen. In this song, each verse adds one additional line of output to the song.
+//After each verse is printed, ask the user to press "Enter" to continue.This will allow your program to pause after each verse to give the user time to read the verse before moving on to another.
+//You should NOT ask the user to press "Enter" after the last verse.
+//You CANNOT write tons of print statements to simply print out the entire song.
+//Your program MUST include a loop. The loop should be designed to repeat exactly 12 times. Each trip through the loop should print one verse to the screen.
+//Inside the loop, you MUST use a switch statements to control the lines that are printed to the screen.
+//For the statement "On the Xth day of Christmas my true love gave to me":
+//Begin by printing "On the X" where X is the value of your loop counter.
+//Next, use a switch statement to print "st" or "nd" or "rd" or "th" to the screen. At this point, depending on the value of the loop counter, this will cause one of the following lines to be printed: 
+//On the 1st 
+//On the 2nd 
+//On the 3rd 
+//On the 4th 
+//etc.
+//Now, print the rest of the line to the screen: 
+//" day of Christmas my true love gave to me"
+//After the first line has been printed, use another switch statement to control which lines of the verse are printed to the screen. Each case statement is allowed to contain a single println statement so that each case statement is printing a single line of output to the screen.
+
 import java.util.*;
 
 public class TwelveDays {
