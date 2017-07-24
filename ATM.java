@@ -1,5 +1,22 @@
 //Matt Raetano
-//This program will act as a basic ATM, providing a menu and allowing the withdrawal and deposit in accounts
+//For this assignment, you will be writing a java application program that simulates a fairly simple ATM machine. You will do this by adding your own code to the java file that has already been started for you. The java code already contains the beginning of a method that you will need to finish writing. In addition, you will need to add the main program code and some methods of your own.
+//Your program should perform the following steps, in the order listed:
+//Your program should begin by asking the user for an account number. The user is expected to enter an account number and then press enter.
+//Next, your program should ask the user to enter the account's password. The user is expected to enter a password and then press enter.
+//Next, you should call on the checkID method, giving it the account and password entered by the user, to determine if they are correct. 
+//If the information is correct, the method should return the account balance for the account.
+//If the information is incorrect, you should display an error message and return to step 2. 
+//NOTE You should only allow the user a total of three attempts to type the account number and password. If the information is still incorrect after the third attempt, you should display an error message saying something about the maximum number of attempts being reached, then stop the program.
+//Next display a menu on the screen allowing the user to make a choice from the following options:
+//Display Balance
+//Deposit
+//Withdraw
+//Log Out
+//If the user does not enter option 1, 2, 3, or 4, you should display an error message, display the menu again, and ask for another option to be entered.
+//If the user chooses option 1, you should show the account balance on the screen.
+//If the user chooses option 2. you should ask the user for a deposit amount, and add it to the balance.
+//If the user chooses option 3, you should ask the user for a withdrawal amount. Check to make sure there is enough money in the account and if so, subtract the withdrawal from the balance. If there isn't enough money in the account, display an error message.
+//Repeat steps 4 – 8 until the user enters menu option 4.
 
 import java.util.*;
 
