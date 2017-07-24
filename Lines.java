@@ -1,5 +1,7 @@
 // Matt Raetano
-// Program will manipulate a partial array and a method to print a line however long that user wants
+// Write a program that will display a series of asterisks across the screen. The number of asterisks that you should print will be entered by the user.
+//You should begin the program by asking the user how many asterisks to print. After retrieving this number, your program should print the requested number of asterisks, all on the same line. Make sure that the "line-break" character is printed after the last asterisk.
+
 import java.util.*;
 
 public class Lines {
