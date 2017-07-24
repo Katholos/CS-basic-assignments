@@ -1,5 +1,6 @@
 //Matt Raetano
-//Program takes a user-inputed line and returns the last word.
+//Write a JAVA application program that will get a line of text from the user, and then display the last word in the line.
+
 import java.util.*;
 
 public class LastWord {
