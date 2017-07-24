@@ -1,5 +1,9 @@
 //Matt Raetano
-//Program gets string from the user and then translates it into pig latin
+//Write a java application that acts as a one-word Pig Latin translator. Your program should:
+//ask the user to enter a word
+//convert the entered word into proper Pig Latin translation
+//print the translated word on the screen
+
 import java.util.*;
 
 public class PigLatin {
