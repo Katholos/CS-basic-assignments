@@ -1,5 +1,6 @@
 //Matt Raetano
-//Program will take an inputed integer and print each digit in reverse order
+//Write a java application program that will get an integer from the keyboard. Your program should then break up the integer into individual digits (using some simple math) and print them to the screen in reverse order, with each digit appearing on a separate line.
+
 import java.util.*;
 
 public class DigitReverse {
