@@ -1,5 +1,14 @@
 //Matt Raetano
-//Program will take a phone number and record how many times a number appears
+//Write a program that counts the number of times a digit appears in a telephone number.
+//Your program should begin by creating an array of size 10 that will hold the count for each digit from 0 to 9. Next, read a telephone number from the keyboard. The telephone number should be stored in a String variable. Examine each character in the phone number, and increment the appropriate count in the array. Display the contents of the array.
+//Note, the user might enter only numbers, as in: 2525551212
+//or they might enter dashes between the digits, as in: 252-555-1212
+//or they might enter parentheses and dashes, as in: (252)555-1212
+//or they might enter parentheses, dashes and spaces, as in: (252) 555-1212
+//Your program should be able to handle all of these possibilities.
+//Hint: Ignore any character that isn't a digit.
+//Hint: Use one of the Character methods to determine if a character is a digit or not.
+
 import java.util.*;
 
 public class CharacterFrequency {
