@@ -18,14 +18,19 @@ public class CashRegister {
 		
 		System.out.print("Enter the quantity of the first product: ");
 		n1 = kbd.nextDouble();
+		
 		System.out.print("Enter the price of the first product: $");
 		p1 = kbd.nextDouble();
+		
 		System.out.print("Enter the quantity of the second product: ");
 		n2 = kbd.nextDouble();
+		
 		System.out.print("Enter the price of the second product: $");
 		p2 = kbd.nextDouble();
+		
 		System.out.print("Enter the quantity of the third product: ");
 		n3 = kbd.nextDouble();
+		
 		System.out.print("Enter the price of the third product: $");
 		p3 = kbd.nextDouble();
 	
