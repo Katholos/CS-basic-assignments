@@ -1,5 +1,5 @@
 //Matt Raetano
-//This program will find the difference of hours and minutes between two military times
+//Write a Java application program that reads two times in military format (0900 and 1730 for example) from the keyboard. The program should then calculate and display the number of hours and minutes between the two times.
 import java.util.*;
 
 public class MilitaryTime {
