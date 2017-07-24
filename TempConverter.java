@@ -1,5 +1,12 @@
 //Matt Raetano
-//Program will convert an inputed Celsius or Fahrenheit temp. to the other.
+//Write a program that allows the user to convert a temperature given in degrees Celsius or Fahrenheit to the opposite value.
+//Begin by getting a temperature from the user. After the temperature, ask the user to enter "C" or "c" for Celsius or "F" or "f" for Fahrenheit. If the user enters anything other than "C" or "F", then display an error message telling the user to only enter "C" or "F".
+//Once you have a temperature and the unit, then convert the temperature to the opposite unit and display the result. The answer should be displayed with only one decimal place.
+//The formula to convert a Celsius temperature to Fahrenheit is:
+//Degrees_F = (9(Degrees_C)/5) + 32)
+//The formula to convert a Fahrenheit temperature to Celsius is:
+//Degrees_C = 5(Degrees_F− 32)/9
+
 import java.util.*;
 
 public class TempConverter {
