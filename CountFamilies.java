@@ -1,5 +1,9 @@
 //Matt Raetano
-//Program takes an int from the user and sets it the size of the array, then finds the data on the array
+//Write a program that counts the number of families whose income is below a certain level.
+//Begin your program by asking the user to enter the number of families. Store this value in a variable called numOfFamilies.
+//Next, create an array whose size is numOfFamilies. Then you will read numOfFamilies values, representing family incomes, from the keyboard and place them into the array.
+//Next, find the maximum income of all the values entered, and print this value to the screen.
+//Finally, count the families that make less than 10% of the maximum income. Display the income of each of these families, then display the count.  Make sure you use correct grammar (i.e. 1 family, 2 families).
 
 import java.util.*;
 
