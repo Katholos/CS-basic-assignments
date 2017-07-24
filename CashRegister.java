@@ -1,5 +1,11 @@
 //Matt Raetano
-//Program acts as a basic receipt for the amount of money you pay based on what you buy
+//Write a Java application program that will add up the cost of three items, then print the final total with sales tax.
+//You should begin by prompting the user to enter three separate prices for three items that are being purchased. For each item you should ask for (in this order) the quantity of the product and the price of the product.
+//The program should compute, and print to the screen:
+//the subtotal (the total amount due before tax)
+//sales tax (the amount of sales tax that will be added, assume 7% tax rate)
+//total due (subtotal + sales tax)
+
 import java.util.Scanner;
 
 public class CashRegister {
