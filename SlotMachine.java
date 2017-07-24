@@ -1,5 +1,20 @@
 //Matt Raetano
-//This program will create a slot machine to be played at the person's convenience
+//Write a java application program that simulates a simple slot machine in which three numbers between 0 and 9 are randomly selected and printed side by side. The program will allow the user to place a bet, and then make a payout if any two of the numbers are the same, or if all three numbers are the sam
+//The following is a synopsis of how the program should operate:
+//The game starts with the user having a balance of $10.00.
+//The program asks the user how much he/she wishes to bet.
+//If the user enters a number less than zero, or greater than the amount of money in the user's balance, you should repeat step 2.
+//If the user entered a bet of zero, go to step 9 below.
+//After a valid bet has been entered, the program should randomly select three numbers from 0-9 and display them on the screen (with some space between for neatness).
+//If a winning combination is produced, the program should calculate and display the amount of money the user has won. (If there is no win, then do not display anything)
+//Display the remaining balance. The balance at this point will be the original balance, minus the amount of the bet, plus any winnings.
+//If the user still has money remaining, the program should ask the user how much he/she wishes to bet.
+//If the user enters a number less than zero, or greater than the amount of money in the user's balance, you should repeat step 7.
+//If the user does not have money remaining, you should display a message stating that     the user has run out of money, and then go to step 9 below.
+//Repeat steps 3-8.
+//At the conclusion of the program, you should display:
+//The amount of money the user has won or lost.
+//The final balance that the user will be cashing out.
 
 import java.util.*;
 
