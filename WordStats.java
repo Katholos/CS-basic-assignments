@@ -1,5 +1,17 @@
-// Matt Raetano
-// program uses file manipulation to recreate text files
+//Matt Raetano
+//Write a program that will:
+//ask the user to enter the name of an input data file
+//read the contents of the file and display some statistics about the information found in the file
+//create an output file which has the same name as the input file, except that the word "copy" will be attached to the end of the filename
+//in the output file, create a copy of the input file except that it should be double-spaced
+//if either the input or the output files cannot be opened, display an error message stating that the file cannot be opened, and then stop the program - you do not need to specify which one could not be opened
+//Statistics
+//Your program must read the contents of the input file and print the following statistics to the screen:
+//The number of characters in the file.
+//The number of words in the file.
+//The number of lines in the file.
+//The number of paragraphs in the file.
+//File Copy
 
 import java.util.*;
 import java.io.*;
