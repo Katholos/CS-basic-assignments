@@ -1,5 +1,6 @@
 //Matt Raetano
-//Program will ascertain whether an inputed integer is divisible by another
+//Write a program that asks the user to enter two integers. The program should test to see if the first number is divisible by the second number.
+
 import java.util.*;
 
 public class Divisible {
