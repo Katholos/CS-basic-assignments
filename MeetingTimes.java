@@ -1,5 +1,10 @@
 //Matt Raetano
-//This program asks for the what meeting times people want and picks the most picked.
+//Write a program that determines the best possible meeting time for four people. The possibilities for meeting times are 8:00-12:00, 12:00-18:00 or 18:00-23:00.
+//You should begin by asking the first user to choose a meeting time. The user should enter the number 1 for the 8:00-12:00 meeting time, the number 2 for the 12:00-18:00 meeting time, or the number 3 for the 18:00-23:00 meeting time.
+//Make sure that you display the three options on the screen for the user.
+//The program will then proceed to do the same thing three more times (for the other three people).
+//At the conclusion, the program should display on the screen the best possible meeting time. For our purposes, this will be the time block chosen by a majority of the people. In the event that there is a tie for time blocks, choose the earliest one.
+
 import java.util.*;
 
 public class MeetingTimes {
