@@ -1,5 +1,15 @@
 //Matt Raetano
-//Program creates a word search puzzle for the user to use.
+//Write a Java application program that will create and display a very simple word find puzzle.
+//Begin by asking the user to enter three-letter word, a four-letter word, a five-letter word and another four-letter word (in that order!). Store each word in a separate String variable.
+//Once the user has entered all four items, use the appropriate String method to change the user's items to all uppercase letters.
+//Next create the word find puzzle according to the following rules:
+//Add the letters "WQTLK" to the beginning of the first word.
+//Add the letters "RXM" to the beginning of the second word.
+//Add the letter "P" to the end of the second word.
+//Add the letter "F" to the beginning of the third word.
+//Add the letters "MB" to the end of the third word.
+//Add the letters "QYLA" to the end of the fourth word.
+//Once the entire puzzle has been assembled, display the puzzle to the screen.
 
 import java.util.*;
 
