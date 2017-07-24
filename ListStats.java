@@ -1,5 +1,19 @@
 //Matt Raetano
-//This program that will read in a list of positive integers (including zero) and display some statistics regarding the integers.
+//Write a program that will read in a list of positive integers (including zero) and display some statistics regarding the integers.
+//The user is assumed to enter the list in sorted order, starting with the smallest number and ending with the largest number.
+//Your program must store the all of the integers in an array. The maximum number of integers that you can expect is 100, however there may not necessarily be that many. Your program should allow the user to continue entering numbers until they enter a negative number or until the array is filled - whichever occurs first. If the user enters 100 numbers, you should output an message stating that the maximum size for the list has been reached, then proceed with the calculations.
+//After you have placed all of the integers into an array, your program should perform the following tasks, in this order:
+//Display the count of how many numbers were read
+//Display the smallest number in the array
+//Display the largest number in the array
+//Display the median (the median is the integer that is stored in the middle position of the array)
+//Display the average of all the numbers
+//Allow the user to search the array for a specified value.
+//First, ask the user to enter an integer to search for.
+//Next, search the array to determine if the given integer is in the array.
+//If the integer is not found, display a message stating that the integer is not in the list.
+//If the integer is found, then display the position number of where you found the integer. If the integer happens to be in the array more than once, then you only need to tell the first position number where you found it.
+//After performing the search, ask the user if he/she wants to search for more integers. Continue searching for numbers until the user answers "N".
 
 import java.util.*;
 
