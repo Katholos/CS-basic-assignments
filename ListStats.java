@@ -152,8 +152,7 @@ public class ListStats {
 				return pos;
 			}
 		}
-		return -1;
-		
+		return -1;	
 	}
 	/**
 	 * method searches the array for a int
@@ -172,9 +171,5 @@ public class ListStats {
 			}
 		}
 		return found;
-		
 	}
-
-
-
 }
