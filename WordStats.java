@@ -22,7 +22,7 @@ public class WordStats {
 		
 		// intializing variables
 		String textfile, line;
-		int words = 0, datalines = 0, chars = 0, paraghs = 0, paragraphs = 0;
+		int words = 0, datalines = 0, chars = 0, paragraphs = 0;
 		boolean lastWasText = false, thisIsText;
 		
 		Scanner kbd = new Scanner(System.in);
@@ -36,6 +36,7 @@ public class WordStats {
 			Scanner input = new Scanner(new FileReader(textfile));
 
 			// Set up connection to an output file
+			// Name of the file was "datacopy.txt" but can be changed to be anything 
 			PrintWriter output = new PrintWriter(new FileOutputStream("datacopy.txt"));
 		    
 			// as long as there are more lines left in the input file
@@ -43,37 +44,34 @@ public class WordStats {
 			while (input.hasNextLine()){
 				
 				// reads the lines and chars and words using a tokenizer
-		        datalines++;
-		        line = input.nextLine();
-		        chars += line.length();
-		        words += new StringTokenizer(line, " ,").countTokens();
-		        thisIsText = line.length() > 0;
+		       		datalines++;
+		        	line = input.nextLine();
+		        	chars += line.length();
+		        	words += new StringTokenizer(line, " ,").countTokens();
+		        	thisIsText = line.length() > 0;
 		        
-		        // booleans to discount multiple spaces
-		        if (!lastWasText && thisIsText) {
-		        	paragraphs++;
-		        }
+		        	// booleans to discount multiple spaces
+		        	if (!lastWasText && thisIsText) {
+		        		paragraphs++;
+		        	}
 		        
-		        lastWasText = thisIsText;
+		        	lastWasText = thisIsText;
 		        
-		        // makes the new file double spaced
+		        	// makes the new file double spaced
 				output.println(line + "\n");
-
 			}
 
 			// close the files
 			input.close();
 			output.close();	
-
 			print(words, datalines, chars, paragraphs);
 		}
-
 		catch(FileNotFoundException e){
 			System.out.println("There was an error opening one of the files.");
 		}
-
 		kbd.close();
 	}
+	
 	/**
 	 * method takes the data from the user and prints the stats of the data txt
 	 * @param words the words in the sentence
@@ -87,7 +85,6 @@ public class WordStats {
 		System.out.println("Words: " + words);
 		System.out.println("Lines: " + datalines);
 		System.out.println("Paragraphs: " + paragraphs);
-
 		System.out.println("\n" + "New file created");
 	}
 
